@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended.Tiled.Graphics.Effects;
@@ -166,4 +166,4 @@ namespace MonoGame.Extended.Tiled.Graphics
                 _defaultEffect.Dispose();
         }
     }
-}
+}*/
