@@ -18,7 +18,7 @@ namespace MonoGame.Extended.Tiled.Graphics
 
         internal TiledMapLayerModel(ContentReader reader, bool isDynamicData = false)
         {
-            var graphicsDevice = MonoGame.Extended.Content.ContentReaderExtensions.GetGraphicsDevice(reader);
+            var graphicsDevice = Microsoft.Xna.Framework.Content.ContentReaderExtensions.GetGraphicsDevice(reader);
 
             LayerName = reader.ReadString();
             var textureAssetName = reader.GetRelativeAssetName(reader.ReadString());
